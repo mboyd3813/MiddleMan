@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stlye.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <title> MiddleMan | Login </title>
+</head>
+<body>
+
+        <!-- <h4> <span id="datetime"></span></h4>
+        <script>
+        var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+        </script> -->
+
+<div class="container1">
+        <h1>The MiddleMan </h1>
+        <h3>"Always At The Point Of Sale"</h3>
+
+</div>
+    <div class="login">
+            <form action="home.html">
+                <div class="form-group">
+                    <input type="text" name="loginID" id="" class="form-control" autocomplete="login" placeholder="Login Id">
+                    <p class="nameErr"></p>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="pass" id="password" class="form-control" autocomplete="password" placeholder="Password">
+                    <p class="passErr"></p>
+                </div>
+                <!-- <div class="form-group">
+                        <style>
+                            .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+                            .toggle.ios .toggle-handle { border-radius: 20px; }
+                        </style>
+                    <input type="checkbox" checked data-toggle="toggle" data-on="Patient" data-off="Driver" data-onstyle="primary" data-offstyle="info" data-style="ios">
+                </div> -->
+                <div class="form-group">    
+                    <input type="submit" name="submit" id="name" class="myButton" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+
+<div class="newstaff">
+    <a href="newuser.html"> New User </a>
+    <br> 
+    <a href="newuser.html"> Forgot ID/Password </a> 
+    <br>
+    <a href="home.html">Home</a>
+</div>
+         
+<div class="footer">
+    <p> Beta v0.01<p>
+
+    </div>
+
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>    
+    
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA7n6ggMdrjGsFw5_X38ziJgQPt-82wR5o",
+    authDomain: "middlemandb.firebaseapp.com",
+    databaseURL: "https://middlemandb.firebaseio.com",
+    projectId: "middlemandb",
+    storageBucket: "middlemandb.appspot.com",
+    messagingSenderId: "905625825412"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>

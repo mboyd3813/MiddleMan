@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkblue;
+    color: blue;
+    background: -webkit-linear-gradient(whitesmoke,black) fixed;
+    padding: 1em;
+    line-height: 1.6;
+}
+
+
+/* Main */
+
+/* .carousel {
+    margin: 250px auto 20px;
+    height: 100px;
+} */
+
+/* .navbar{
+    position: fixed;
+    background-color: whitesmoke;
+    margin: auto;
+} */
+
+.container1 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background: blaCK;
+    background: linear-gradient(whitesmoke, white);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.container2 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background: blaCK;
+    background: linear-gradient(whitesmoke, white);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+.container3 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background: blaCK;
+    background: linear-gradient(whitesmoke, white);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.container4{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background: blaCK;
+    background: linear-gradient(whitesmoke, white);
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 0.3em;
+}
+
+.header{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background: goldenrod;
+    background: linear-gradient(gold, goldenrod);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.navi{
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 3px;
+    font-size: 13px;
+    padding: 0em;
+    color: whitesmoke;
+    background: linear-gradient(whitesmoke, white);
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+li{
+    display: inline;
+}
+
+/* Login */
+.login {
+    width: 250px;
+    max-width: 800px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    padding: 1em;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+}
+ 
+/* Logo */
+.logo {
+    margin-top: -120px;
+    margin-left: -480px;
+    transition: left linear 0.2s, width linear 0.2s, height linear 0.2, transform linear 0.2s;
+}
+
+.logo:hover {
+    left: 25px;
+    width: 100px;
+    height: 100px;
+    rotate: 360deg;
+}
+
+/* Buttons */
+.myButton {
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;
+    padding: 3px 40px;
+    border-radius: 0;
+    background: whitesmoke;
+    box-shadow: 0px 3px 8px black;
+    color: black;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 5px;
+    transition: background linear 0.3s;
+}
+
+.myButton:hover {
+    background: darkblue;
+
+
+}
+/* Forms */
+.form-group2{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.form-group3{
+    margin: -225px 75px 0px auto;
+    height: 100px;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.form-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myform{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background: blaCK;
+    background: linear-gradient(whitesmoke, white);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 3px 30px black;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.justify-content-end{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+/* .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+} */
+/* New User */
+.newstaff{
+    margin: 30px auto;
+}
+
+.newstaff form {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+}
+
+
+a:hover {
+    text-decoration-color: whitesmoke;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    padding: 30px;
+    margin: -13px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    font-family: bold;
+    font-size: 60px;
+    margin: -335px auto;
+    height: 100px;
+    line-height: 1.6;
+    padding: 1em;
+    font-family: 'Londrina Solid', cursive;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    
+}
+
+.h3, h3 {
+    font-size: 15px;
+    font-family: 'Londrina Solid', cursive;
+    margin: -30px;
+}
+
+.footer p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: center;
+    margin: 30px auto 0px auto;
+    font-style: italic;
+    font-size: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+
+/* Images */
+img{
+    width: 1280px;
+    height: 350px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+@media(max-width: 800px){
+    body,
+    .header,
+    .footer,
+    .container,
+    .login,
+    input,{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .form-group3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px;
+        line-height: 1.6;
+    }
+    h2 {
+        color: darkblue;
+        text-align: center;
+        font-family: bold;
+        font-size: 35px;
+        margin: -280px auto;
+        height: 100px;
+        line-height: 1.6;
+        padding: 1em;
+        font-family: 'Londrina Solid', cursive;
+    }
+    
+}
